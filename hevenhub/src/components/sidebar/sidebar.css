@@ -1,0 +1,39 @@
+/* sidebar.css */
+.sidebar {
+  position: fixed;  /* Fixes the sidebar to the left */
+  top: 0;           /* Keeps it at the top */
+  left: 0;          /* Keeps it at the left side */
+  height: 100vh;     /* Full viewport height */
+  width: 250px;      /* Sidebar width */
+  background-color: #f4f4f4; /* Background color */
+  padding: 20px;     /* Padding inside the sidebar */
+  box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.1); /* Adds a shadow to the right */
+  overflow-y: auto;  /* Ensures content inside sidebar can scroll */
+  z-index: 1000;     /* Ensures sidebar stays on top of other elements */
+}
+
+.sidebar .sidebar-links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sidebar .sidebar-links a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: #333;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.sidebar .sidebar-links a:hover {
+  background-color: #4caf50;
+  color: white;
+}
+
+.sidebar .sidebar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}

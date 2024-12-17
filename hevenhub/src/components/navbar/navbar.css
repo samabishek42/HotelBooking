@@ -1,0 +1,10 @@
+.navbar-logo {
+  width: 40px;
+  font-weight: 900;
+  font-size: 30px;
+}
+/* navbar.css */
+.nav-link:hover {
+  background-color: black;
+  color: white;
+}

@@ -1,0 +1,71 @@
+.hotel-details-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px; /* Adds space between elements */
+  padding: 20px;
+}
+
+.hotel-left {
+  flex: 1; /* Takes up more space than the right section */
+  max-width: 70%;
+}
+
+.hotel-location {
+  flex-basis: 100%;
+  margin-top: 20px;
+}
+
+.date-picker-container {
+  margin-left: -2px;
+  margin-bottom: 15px;
+  position: relative;
+  top: 320px;
+}
+
+.room-inputs {
+  position: absolute;
+  top: 250px;
+}
+
+.room-input {
+  position: relative;
+  top: 250px;
+  margin-bottom: 20px;
+}
+
+.book-now-btn {
+  background-color: orange;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+  position: relative;
+  top: 450px;
+}
+
+.book-now-btn:hover {
+  background-color: darkorange;
+}
+
+.hotel-features .feature-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hotel-features .feature-name {
+  font-size: 14px;
+  color: #555;
+}
+
+.custom-date-picker {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}

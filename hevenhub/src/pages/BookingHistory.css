@@ -1,0 +1,107 @@
+.booking-history {
+  padding: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.booking-section {
+  margin-bottom: 40px; /* Increased space between sections */
+}
+
+.booking-section h3 {
+  font-size: 1.75rem; /* Larger font for section titles */
+  color: #333;
+  margin-bottom: 20px; /* Added more space below the headings */
+  text-transform: uppercase;
+  letter-spacing: 2px; /* Added spacing between letters for a more polished look */
+  text-align: center; /* Center align heading */
+  font-weight: 600; /* Make headings more prominent */
+  border-bottom: 2px solid #ddd; /* Added a border under the heading */
+  padding-bottom: 10px; /* Padding to separate from the next element */
+}
+
+.booking-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px; /* Increased gap between cards */
+  justify-content: center;
+  padding: 20px; /* Added padding around the card section */
+}
+
+.booking-card {
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); /* Slightly stronger shadow for a more elevated look */
+  width: 280px; /* Slightly smaller width to allow better spacing */
+  padding: 25px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  text-align: center;
+  position: relative; /* For advanced effects */
+}
+
+.booking-card:hover {
+  transform: translateY(-8px); /* Enhanced hover effect */
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+  cursor: pointer;
+}
+
+.booking-details h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.booking-info p,
+.booking-dates p,
+.booking-status p,
+.booking-amount p {
+  margin: 8px 0;
+  color: #666;
+}
+
+.booking-info p strong,
+.booking-dates p strong,
+.booking-status p strong,
+.booking-amount p strong {
+  color: #333;
+}
+
+/* Cancel button with advanced effects */
+.cancel-btn {
+  background: linear-gradient(45deg, #ff4b5c, #e53946);
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  margin-top: 20px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  text-decoration: none; /* Make sure no underlines are shown */
+}
+
+.cancel-btn:hover {
+  background: linear-gradient(45deg, #ff2e47, #c2185b);
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.cancel-btn:active {
+  transform: scale(1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.cancel-btn:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+  .booking-card {
+    width: 100%;
+  }
+}

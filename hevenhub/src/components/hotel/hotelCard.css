@@ -1,0 +1,91 @@
+.hotel-card {
+  margin: 0;
+  padding: 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.hotel-image-section {
+  flex: 2;
+  max-width: 50%; /* Adjust width as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f9fa;
+}
+
+.hotel-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hotel-details-section {
+  flex: 2;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hotel-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.hotel-footer {
+  margin-top: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hotel-buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.hotel-price {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.rating{
+  display: flex;
+  gap: 4px;
+  background-color: rgb(8, 100, 142);
+  width: 50px;
+  justify-content: center;
+  border-radius: 4px;
+  color: #ddd;
+}
+
+.hotel-features {
+  margin-top: 10px;
+}
+
+.features-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;  /* Space between feature items */
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;  /* Space between icon and name */
+}
+
+.feature-icon {
+  font-size: 1rem; /* Adjust icon size */
+  color: #007bff;   /* Icon color */
+}
+
+.feature-name {
+  font-size: 1rem;
+  color: #333; /* Text color */
+}
